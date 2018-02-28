@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Example1a.Properties
+namespace Example1bb.Properties
 {
 
 
