@@ -35,5 +35,10 @@ namespace IceCream
             }
             MessageBox.Show(s + " is selected!");
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
