@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3FFF1308-9BD3-4D76-A986-4C662A9CB171}</ProjectGuid>
+    <ProjectGuid>{12582EB5-9DEC-4E7D-8D27-C40BEE24A4DE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Example1bb</RootNamespace>
-    <AssemblyName>Example1bb</AssemblyName>
+    <RootNamespace>IceCream</RootNamespace>
+    <AssemblyName>IceCream</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,12 +50,6 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

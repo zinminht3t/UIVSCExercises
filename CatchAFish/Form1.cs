@@ -8,21 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Example1bb
+namespace CatchAFish
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-            Form2 f = new Form2();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_MouseEnter(object sender, EventArgs e)
         {
-            MessageBox.Show("Button1 has been Clicked.");
-            MessageBox.Show("Height is = " + button1.Height + " and Width is " + button1.Width);
-            f.Show();
+            Random r = new Random();
+            int x = r.Next(1, 300);
+            int y = r.Next(1, 300);
+
+            this.button1.Location = new Point(x, y);
         }
     }
 }
